@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Utilisation de VITE_API_KEY via import.meta.env
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 /**
  * Envoie une liste de noms de commerces à Gemini pour identifier les chaînes et franchises.
