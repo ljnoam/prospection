@@ -1,0 +1,5 @@
+{
+  "name": "ProspectManager",
+  "description": "A modern, efficient sales prospecting tool with CSV import capabilities and real-time Firebase synchronization.",
+  "requestFramePermissions": []
+}
